@@ -13,3 +13,5 @@ echo $sex;
 echo "</br>";
 echo $age;
 echo "dsd";
+echo "增加";
+
