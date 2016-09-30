@@ -12,3 +12,4 @@ echo"</br>";
 echo $sex;
 echo "</br>";
 echo $age;
+echo "dsd";
