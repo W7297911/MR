@@ -12,6 +12,6 @@ echo"</br>";
 echo $sex;
 echo "</br>";
 echo $age;
-echo "dsd";
-echo "增加";
-
+echo "<br>";
+$result1 = array('a' =>1,'b' =>2,'c' =>3,);
+$SFG = array('' => , );
