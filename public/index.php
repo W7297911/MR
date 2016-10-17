@@ -1,4 +1,4 @@
-<form id="form1" name="form1" method="post" action="post.php">
+ <form id="form1" name="form1" method="post" action="post.php">
   <table  width="503" border="0" align="center" cellspacing="1" bgcolor="#BBBBBB">
     <tr>
       <td height="46" colspan="2" bgcolor="#DDDDDD">
