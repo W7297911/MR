@@ -3,10 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>html练习</title>
+    <!-- 设置默认属性值 -->
+    <base href="www.baidu.com" target="_blank" />
   </head>
   <body>
     <!-- 链接标签，执行超链接 -->
-    <a href="http://www.baidu.com" target="_blank"  type="string" >
+    <a href="http://www.baidu.com" type="string" >
       <abbr title="来自中国的最强搜索引擎">百度</abbr>
     </a>
     <br>
@@ -29,17 +31,38 @@
     <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="sun"/>
     <area shape="circle" coords="90,58,3" href="mercur.htm" alt="mercur"/>
     <area shape="circle" coords="124,58,8" href="venus.htm" alt="venus"/>
-    </map> -->
+  </map> -->
     <article class="#class">
       <h3><ul>
         <li value="blue">自由评论</li><br>
         <li>分享内容</li><br>
-        <li>详细信息</li><br>
-        <li>特别关注</li><br>
-        <li>环境变量</li>
+        <!-- 标记为高亮显示 -->
+        <li><mark>详细信息</mark></li><br>
+        <!-- 标记为重要的文本 -->
+        <li><strong>特别关注</strong></li><br>
+        <!-- 标记为别调的文本 -->
+        <li><em>环境变量</em></li>
       </ul></h3>
     </article>
     <aside>
-      使用说明
+      <b>使用</b>说明
     </aside>
+    <br>
+    <!-- 插入音乐播放器 -->
+    <audio src="music/Angel.mp3" controls="controls" autoplay="#1" loop="#2" muted="#3">
+ddfd
+    </audio>
+    <br>
+    <!-- 插入图片 -->
+    <img src="image/222.jpg"  alt="这是一张未知的图片" height="400px" width="600px" />
+    <!-- bdo定义文字的方向 -->
+    <article>
+      <bdo dir="rtl">这是一个非</bdo>常漂亮的盒子，不知道是谁送来的
+    </article>
+    <h1>这是一个引用</h1>
+    <p>科比曾经说过：</p>
+    <blockquote cite="http://www.nbalx.com/news/38353.html">    <!--引用标签-->
+    你见过洛杉矶凌晨4：00是什么样子吗？
+    </blockquote>
+    <a href="http://www.ddos.com" target="_blank"><button type="submit" name="button" >点击</button></a>
   </body>
