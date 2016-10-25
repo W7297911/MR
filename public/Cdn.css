@@ -28,6 +28,11 @@
     font-size:20px;
     word-spacing: 10px;
   }
+  .second{
+    border-top: 1px solid  red;
+    border-right: 1px solid red;
+    border-left: 2px solid red;
+  }
   .food>li{
     border:2px solid #008B8B;
     }/*添加边框样式（粗细为1px， 颜色为红色的实线）*/
