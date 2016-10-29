@@ -14,3 +14,13 @@ img{
     border: none;
     display: block;
 }
+.clearfloat{
+    zoom: 1;
+}
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
