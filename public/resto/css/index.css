@@ -98,3 +98,20 @@ margin-top: 10px;
   width: 192px;
   border-top: 1px solid #e3e1e1;
 }
+.index-menu .menu-more-btn{
+  margin: 0 auto;
+  width: 114px;
+  height: 32px;
+  padding-left: 16px;
+  border: 1px solid #d7d5d5;
+  font-size: 14px;
+  line-height: 32px;
+  color: #b7b7b7;
+}
+.index-menu .menu-more-btn .icon{
+  display: inline-block;
+  width: 11px;
+  height: 7px;
+  margin-left: 10px;
+  background: url("../images/index-btn-icon.gif") no-repeat;
+}
