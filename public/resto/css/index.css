@@ -115,3 +115,37 @@ margin-top: 10px;
   margin-left: 10px;
   background: url("../images/index-btn-icon.gif") no-repeat;
 }
+.public-container .index-panel{
+  margin-top: 200px;
+}
+.index-panel-header{
+
+}
+.index-panel-header h3{
+  float: left;
+  margin-right: 48px;
+  font-size: 20px;
+  color: #3b3b3b;
+  font-weight: normal;
+}
+.index-panel-header .line{
+  float: left;
+  margin-top: 7px;
+  width: 200px;
+  border-top: 1px solid #e5e3e3;
+}
+.index-panel-header .btn-group{
+  font-size: 0;
+  float: right;
+}
+.index-panel-header .btn{
+  display: inline-block;
+  margin-left: 11px;
+  width: 9px;
+  height: 9px;
+  background: #dedede;
+  border-radius: 50%;
+}
+.index-panel-header .active{
+  background: #9b9b9b;
+}
