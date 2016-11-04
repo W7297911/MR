@@ -1,0 +1,12 @@
+.index-banner{
+    position: relative;
+    background: #2cafe3;
+}
+.index-banner-bg{
+    height: 650px;
+    overflow: hidden;
+}
+.index-banner-bg img{
+    margin: 0 auto;
+}
+

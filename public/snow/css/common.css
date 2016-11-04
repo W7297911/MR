@@ -1,77 +1,77 @@
-/*.public-header{
-  height: 110px;
+.public-header{
+  height:90px;
 
-  background-color: #6B6B6B;
+  background-color: #000000;
 
 }
 .public-header .header-logo{
   float: left;
-  margin-top: 26px;
-  width: 78px;
-  height: 60px;
-  background: url("../images/header-logo/png");
+  margin-left: -200px;
+  margin-top: 18px;
+
+  background: url("../images/header-logo.png") no-repeat;
 }
 .public-header .header-logo a{
+    width: 75px;
+    height: 55px;
+}
+.public-header .header-nav{
+    margin-top: 20px;
+    float: left;
+    font-size: 18px;
+    width: 500px;
+}
+.public-header .header-nav a:hover{
+    text-decoration: underline;
+}
+.public-header .header-nav .item{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #adf1ff;
+}
+.public-header .header-lock{
+    float: right;
+    margin-top: 20px;
+    margin-right: -80px;
 
 }
+.public-header .header-lock .header-lock-search{
+    float: left;
+    margin-top: 22px;
+    margin-right: 10px;
+    width: 30px;
+    height: 24px;
+    background: url("../images/header-lock-search.png") no-repeat;
+}
+.public-header .header-lock .header-lock-real{
+    float: left;
+    margin-top: 22px;
+    margin-right: 10px;
+    width: 14px;
+    height: 16px;
+    background: url("../images/header-lock-real.png") no-repeat;
+}
+.public-header .public-header-login{
+    float: right;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+}
+.public-header .public-header-login .login-text{
+    width: 60px;
+    height: 40px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    border: 5px;
+    color: #adf1ff;
+}
+
 .public-container{
     position: relative;
     margin: 0 auto;
-    width: 1100px;*/
-    .public-header{
-        height: 110px;
-
-    }
-    .public-header .header-logo{
-        float: left;
-        margin-top: 40px;
-        /*width: 182px;
-        height: 54px;*/
-      background: url("../images/index-header-logo.png") no-repeat;
-    }
-    .public-header .header-logo a{
-        height: 54px;
-        width: 182px;
-    }
-    .public-header .header-nav{
-        float: right;
-        font-size: 14px;
-    }
-    .public-header .header-nav .item{
-        float: left;
-        margin-top: 44px;
-        margin-left: 50px;
-    }
-    .public-header .header-nav a{
-        color: #3b3b3b;
-    }
-    .public-header .header-nav a:hover{
-      text-decoration: underline;
-    }
-    .public-container{
-        position: relative;
-        margin: 0 auto;
-        width: 1100px;
-    }
-    .public-footer{
-        height: 218px;
-        background: #3b3b3b;
-        padding-top: 100px;
-    }
-    .public-footer .footer-col{
-        width: 230px;
-        float: left;
-        margin-right: 60px;
-        font-size: 16px;
-        color: #fff;
-        line-height: 1.8;
-    }
-    .public-footer .footer-col:last-child{
-        margin-right: 0;
-    }
-    .public-footer .footer-logo{
-        margin-top: -10px;
-        width: 182px;
-        height: 55px;
-        background: url("../images/index-footer-logo.png") no-repeat;
-    }
+    width: 1100px;
+  }
