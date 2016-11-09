@@ -16,5 +16,30 @@
     /*float: left;*/
    /*left: 100px;*/
 /*}*/
+.index-panel{
+    margin-top: 80px;
+
+}
+.index-panel .index-panel-1 h2{
+    font-size: 50px;
+    color: #3b3b3b;
+}
+.index-panel .index-panel-1 p{
+    font-size: 18px;
+    color: #3b3b3b;
+}
+.index-panel .index-panel-1-1{
+    position: relative;
+    float: inherit;
+    text-align: center;
+    margin-top: 30px;
+}
+.index-panel .index-panel-1 .index-panel-x{
+    margin: 40px auto;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background: url("../images/index-panel-1.png")  no-repeat;
+}
 
 
