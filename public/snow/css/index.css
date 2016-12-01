@@ -1,21 +1,23 @@
-.index-banner{
+.index-banner {
 
     position: relative;
 
 }
-.index-banner-bg{
-  margin: 0 auto;
+
+.index-banner-bg {
+    margin: 0 auto;
     /*height: 937px;
     width: 2020px*/
 
 }
 
-.index-banner-bg img{
+.index-banner-bg img {
     margin: 0 auto;
     width: 1350px;
     height: 650px;
 }
-.index-banner .index-banner-font{
+
+.index-banner .index-banner-font {
     position: absolute;
     margin: 0 auto;
     width: 493px;
@@ -25,109 +27,125 @@
     background: url("../images/banner-font-1.png");
 
 }
-.index-panel{
-  margin: 0 auto;
+
+.index-panel {
+    margin: 0 auto;
     width: 1350px;
 
 }
-.index-panel .index-panel-1{
-  height: 400px;
-  background: #D3D3D3;
+
+.index-panel .index-panel-1 {
+    height: 400px;
+    background: #D3D3D3;
 }
-.index-panel .index-panel-1 h2{
+
+.index-panel .index-panel-1 h2 {
     font-size: 50px;
     color: #3b3b3b;
 }
-.index-panel .index-panel-1 p{
+
+.index-panel .index-panel-1 p {
     padding-top: 40px;
     font-size: 18px;
     color: #3b3b3b;
 }
-.index-panel .index-panel-1-1{
+
+.index-panel .index-panel-1-1 {
     position: relative;
 
     text-align: center;
     top: 60px;
 }
-.index-panel .index-panel-1 .index-panel-x{
+
+.index-panel .index-panel-1 .index-panel-x {
     margin-top: 150px;
     bottom: 40px;
     height: 30px;
     width: 30px;
     text-align: center;
-    background: url("../images/index-panel-1.png")  no-repeat;
-}
-.index-panel-background{
-
-
-}
- img{
-  margin-left: 0px;
-  margin: 0 auto;
-  height: 800px;
-  width: 1350px;
-
-}
-.index-panel .index-panel-background  .panel-font{
-  position: absolute;
-  margin: 0 auto;
-  margin-left: 150px;
-  top: 160px;
-  width: 596px;
-  height: 600px;
-}
-.index-panel .index-panel-background .panel-font .panel-font-2{
-
-  width: 415px;
-  height: 91px;
-  background: url("../images/banner-font-2.png");
-}
-.index-panel .index-panel-background .panel-font .panel-font-3{
-  margin-top: 40px;
-  width: 596px;
-  height: 314px;
-  background: url("../images/banner-font-3.png");
-}
-.index-panel-name{
-  margin: 0 auto;
-  height: 600px;
-  width: 1350px;
-  /*background: #3b3b3b;*/
-}
-.index-panel .panel-name-l{
-  margin-top: 60px;
-  height: 33px;
-  width: 236px;
-  background: url("../images/name.png");
-}
-.index-panel-name .panel-name-x{
-  margin-top: 60px;
-  height: 30px;
-  width: 30px;
-  margin-bottom: 40px;
-  background: url("../images/index-panel-1.png")  no-repeat;
-
-}
-.panel-name-p .all-item{
-  margin-top: 30px;
-  float: left;
-  margin: 0 auto;
-  margin-right: 57px;
-  margin-left: 57px;
-
-}
-.index-panel-name .panel-name-p img{
-  margin-left: 0px;
-  width: 220px;
-  height: 160px;
+    background: url("../images/index-panel-1.png") no-repeat;
 }
 
-.index-panel-name .panel-name-p .item{
-margin-top: 20px;
-  margin-left: 0px;
-  width: 220px;
+.index-panel-background {
+
 }
-.public-footer{
-  height: 300px;
-  background: #000;
+
+img {
+    margin-left: 0px;
+    margin: 0 auto;
+    height: 800px;
+    width: 1350px;
+
+}
+
+.index-panel .index-panel-background .panel-font {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 150px;
+    top: 160px;
+    width: 596px;
+    height: 600px;
+}
+
+.index-panel .index-panel-background .panel-font .panel-font-2 {
+
+    width: 415px;
+    height: 91px;
+    background: url("../images/banner-font-2.png");
+}
+
+.index-panel .index-panel-background .panel-font .panel-font-3 {
+    margin-top: 40px;
+    width: 596px;
+    height: 314px;
+    background: url("../images/banner-font-3.png");
+}
+
+.index-panel-name {
+    margin: 0 auto;
+    height: 600px;
+    width: 1350px;
+    /*background: #3b3b3b;*/
+}
+
+.index-panel .panel-name-l {
+    margin-top: 60px;
+    height: 33px;
+    width: 236px;
+    background: url("../images/name.png");
+}
+
+.index-panel-name .panel-name-x {
+    margin-top: 60px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 40px;
+    background: url("../images/index-panel-1.png") no-repeat;
+
+}
+
+.panel-name-p .all-item {
+    margin-top: 30px;
+    float: left;
+    margin: 0 auto;
+    margin-right: 57px;
+    margin-left: 57px;
+
+}
+
+.index-panel-name .panel-name-p img {
+    margin-left: 0px;
+    width: 220px;
+    height: 160px;
+}
+
+.index-panel-name .panel-name-p .item {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 220px;
+}
+
+.public-footer {
+    height: 300px;
+    background: #000;
 }

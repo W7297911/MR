@@ -1,4 +1,4 @@
-<table width="501" border="0" align="center" cellspacing="1" bgcolor="#BBBBBB">
+test.php<table width="501" border="0" align="center" cellspacing="1" bgcolor="#BBBBBB">
   <tr>
     <td height="43" colspan="2" bgcolor="#DDDDDD">
       <font color="#333333" size="+2">
@@ -70,7 +70,7 @@
         自我评价：
     </td>
     <td height="96" bgcolor="#DDDDDD" valign="top">
-    <?php echo $_POST['comment']; ?>  
+    <?php echo $_POST['comment']; ?>
     </td>
   </tr>
 </table>
